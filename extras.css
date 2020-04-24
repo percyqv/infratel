@@ -1,0 +1,150 @@
+#head-soluciones .p1 {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #fff;
+  font-size: 2rem;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#head-soluciones .p2 {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 400;
+  color: #fff;
+  font-size: 1rem;
+}
+
+
+#texto-cuadrante .p1 {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #fff;
+  font-size: 0.8rem;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#fonth3 .h {
+	font-size: 1rem;
+}
+
+
+.bloque
+{
+	margin-bottom: 20px;
+}
+
+
+@media (min-width: 600px) {
+
+	.main2 {
+	  display: grid;
+	  width: 100%;
+	  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	  background-color: #003569;
+	}
+
+	.figure1{
+		grid-column: span 3;
+		grid-row: span 2;
+		 width: 80%;
+		 background-color: #003569;
+		 object-fit: cover;
+		 padding-top: 10%;
+	}
+	
+	.figure2 {
+		grid-column: span 3;
+		grid-row: span 2;
+		 width: 90%;
+		 background-color: #003569;
+		 object-fit: cover;
+	}
+	
+	.figure-img1 {
+	  display: block;
+	  width: 100%;
+	  object-fit: cover;
+	  padding-top: 30%;
+	
+	}
+
+	.figure-img2 {
+	  display: block;
+	  width: 100%;
+	  height: 100%;
+	  object-fit: cover;
+	  padding-top: 20%;
+	  padding-bottom: 15%;
+
+	}
+
+}
+
+.main2 {
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  background-color: #003569;
+	}
+
+
+.figure-img1 {
+  display: block;
+  object-fit: cover;
+  padding-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15%;
+  padding-top: 30%;
+
+}
+
+.figure-img2 {
+  display: block;
+  width: 80%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15%;
+
+
+}
+
+
+#intro {
+	background-color: #003569;	
+}
+
+#contacto {
+	background-color: #003569;	
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 1px;
+  background-color: #FFFFFF;
+  padding: 0px;
+}
+
+.grid-container > div {
+  background-color: #FFFFFF;
+  text-align: center;
+  font-size: 30px;
+  padding: 8px 0;
+}
+
+.item1 {
+  grid-area: 1 ;
+}
+
+.titulo {
+    font-family: Poppins-Regular;
+    font-size: 32px;
+    line-height: 1.7;
+    color: #003569;
+    margin: 0px;
+}
